@@ -4,10 +4,16 @@ padding-bottom: 300px;
 background-image: url("../images/background_abstract.jpg");
 background-repeat: no-repeat;
 background-size: cover;
-opacity:0.9;
+opacity: 1;
 z-index: 1;
 background-attachment: fixed;
 }
+
+.opacity_for_whole_page {
+opacity:1;
+z-index: 100;
+}
+
 
 .high_opacity h1{
 color: #660000;
@@ -65,4 +71,10 @@ background: #ff4d4d;
 
 ul {
   list-style-type: none;
+}
+
+#wrapper {
+color: #660000 ;
+background-color: #ffe6e6;
+padding: 10px 0px;
 }
