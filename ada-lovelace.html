@@ -4,32 +4,38 @@
 
 <head>
   <title>Ada Lovelace</title>
-  <link href="index.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <meta charset="utf-8" />
 </head>
 
-<body>
+<body class="container">
   <header>
-    <nav id="navigation_on_every_page">
-      <ul>
-        <li>
-          <a href="index.html">Overview</a>
-        </li>
-        <li>
-          <a href="grace-hopper.html">Grace Hopper</a>
-        </li>
-        <li>
-          <a href="katherine-johnson.html">Katherine Johnson</a>
-        </li>
-      </ul>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Navigation</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="grace-hopper.html">Grace Hopper</a>
+          <a class="nav-item nav-link" href="katherine-johnson.html">Katherine Johnson</a>
+        </div>
+      </div>
     </nav>
-    <h1 class="h1_on_every_page">Ada Lovelace</h1>
+    <h1 class="jumbotron h1_on_every_page">Ada Lovelace</h1>
+    <div class="container">
+    <div class="row">
+      <div class="col-xs-4">
     <h2>Short bio:</h2>
-      <ul class="short_bio">
+      </div>
+      <ul class="short_bio col-xs-8">
         <li>Born: The Hon. Augusta Ada Byron, 10 December 1815, London, England</li>
         <li>Died: 27 November 1852, Marylebone, London, England</li>
         <li>Known for: Mathematics, Computing</li>
       </ul>
+    </div>
+    </div> <!--short_bio container ends here-->
   </header>
 
   <main>
