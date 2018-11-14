@@ -4,21 +4,18 @@ padding-bottom: 300px;
 background-image: url("../images/background_abstract.jpg");
 background-repeat: no-repeat;
 background-size: cover;
-opacity: 0.9;
+opacity:0.9;
 z-index: 1;
 background-attachment: fixed;
 }
 
-.background_low_opacity {
-
-}
-
-.high_opacity h1 {
+.high_opacity h1{
 color: #660000;
 font-size: 90px;
 background-color: #ffe6e6;
 z-index: 100;
 padding-left: 10px;
+opacity:1;
 }
 
 .high_opacity h2 {
@@ -30,6 +27,42 @@ padding-left: 10px;
 padding-bottom: 10px;
 }
 
-.middlepart {
-padding-top: 40px;
+.ada {
+background: #ff9999;
+opacity:0.9;
+padding: 30px;
+margin: 20px 50px 20px 40px;
+}
+
+.ada:hover {
+opacity: 1;
+background: #ff4d4d;
+}
+
+.grace {
+background: #ff9999;
+opacity:0.9;
+padding: 30px;
+margin: 20px 50px 20px 20px;
+}
+
+.grace:hover {
+opacity: 1;
+background: #ff4d4d;
+}
+
+.katherine {
+background: #ff9999;
+opacity:0.9;
+padding: 30px;
+margin: 20px;
+}
+
+.katherine:hover {
+opacity: 1;
+background: #ff4d4d;
+}
+
+ul {
+  list-style-type: none;
 }
