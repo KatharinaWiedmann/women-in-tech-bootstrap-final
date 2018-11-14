@@ -1,10 +1,20 @@
-body {
-padding-top: 100px;
+.body_for_homepage {
+padding-top: 300px;
 padding-bottom: 300px;
 background-image: url("../images/background_abstract.jpg");
 background-repeat: no-repeat;
 background-size: cover;
-opacity: 1;
+opacity: 0.9;
+z-index: 1;
+background-attachment: fixed;
+}
+
+.body_for_individual_pages {
+padding-top: 10px;
+background-image:url("../images/background_abstract.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+opacity: 0.9;
 z-index: 1;
 background-attachment: fixed;
 }
