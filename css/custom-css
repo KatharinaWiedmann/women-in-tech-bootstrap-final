@@ -19,6 +19,17 @@ z-index: 1;
 background-attachment: fixed;
 }
 
+.navbar {
+position:fixed;
+z-index:100;
+}
+
+.body_without_nav {
+background: red;
+padding-top: 60px;
+}
+
+
 .opacity_for_whole_page {
 opacity:1;
 z-index: 100;
