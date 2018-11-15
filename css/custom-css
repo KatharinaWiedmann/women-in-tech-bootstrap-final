@@ -97,10 +97,19 @@ z-index:100;
 }
 
 .body_without_nav {
-background: blue;
+background:#ECF5DA;
 padding-top:2%;
 margin-bottom: 15px;
+}
 
+.body_without_nav:hover {
+background: #E3DAF5;
+padding: 5%;
+}
+
+.google-font {
+font-family: Amatic SC;
+font-size: 90px;
 }
 
 .blockquote {
@@ -108,11 +117,20 @@ color:#ff4d4d;
 background-color: #ffe6e6;
 }
 
-.test1 {
-background-color: green;
+.container_long_bio {
+background-color: #DAF5F1;
+padding: 10px;
+opacity:1;
+z-index: 1;
 }
 
+/*This doesn't do anything yet. Trying to figure out how to change the opacity*/
+.container_for_text {
+opacity:1;
+z-index: 100;
+}
+
+
 .wrapper_for_body {
-background-color: orange;
 padding-top: 5%;
 }
