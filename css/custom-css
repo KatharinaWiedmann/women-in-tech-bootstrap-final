@@ -1,40 +1,8 @@
-.body_for_homepage {
-padding-top: 300px;
-padding-bottom: 300px;
-background-image: url("../images/background_abstract.jpg");
-background-repeat: no-repeat;
-background-size: cover;
-opacity: 0.9;
-z-index: 1;
-background-attachment: fixed;
-}
-
-.body_for_individual_pages {
-padding-top: 10px;
-background-image:url("../images/background_abstract.jpg");
-background-repeat: no-repeat;
-background-size: cover;
-opacity: 0.9;
-z-index: 1;
-background-attachment: fixed;
-}
-
-.navbar {
-position:fixed;
-z-index:100;
-}
-
-.body_without_nav {
-background: red;
-padding-top: 60px;
-}
-
-
+/*Homepage only*/
 .opacity_for_whole_page {
 opacity:1;
 z-index: 100;
 }
-
 
 .high_opacity h1{
 color: #660000;
@@ -90,12 +58,61 @@ opacity: 1;
 background: #ff4d4d;
 }
 
-ul {
-  list-style-type: none;
-}
-
 #wrapper {
 color: #660000 ;
 background-color: #ffe6e6;
 padding: 10px 0px;
+}
+
+/*Both bio and Homepage*/
+.body_for_homepage {
+padding-top: 300px;
+padding-bottom: 300px;
+background-image: url("../images/background_abstract.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+opacity: 0.9;
+z-index: 1;
+background-attachment: fixed;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/*Bio-page only*/
+.body_for_individual_pages {
+padding-top: 10px;
+background-image:url("../images/background_abstract.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+opacity: 0.9;
+z-index: 1;
+background-attachment: fixed;
+}
+
+.navbar {
+position:fixed;
+z-index:100;
+}
+
+.body_without_nav {
+background: blue;
+padding-top:2%;
+margin-bottom: 15px;
+
+}
+
+.blockquote {
+color:#ff4d4d;
+background-color: #ffe6e6;
+}
+
+.test1 {
+background-color: green;
+}
+
+.wrapper_for_body {
+background-color: orange;
+padding-top: 5%;
 }
