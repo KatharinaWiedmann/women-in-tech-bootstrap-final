@@ -1,12 +1,19 @@
 /*Homepage only*/
+
 .opacity_for_whole_page {
 opacity:1;
 z-index: 100;
+}
+.test2{
+padding: 0;
+margin: 0px 0px 10px 0px;
 }
 
 .high_opacity h1{
 color: #660000;
 font-size: 90px;
+font-family: Amatic SC;
+font-weight: bold;
 background-color: #ffe6e6;
 z-index: 100;
 padding-left: 10px;
@@ -15,7 +22,7 @@ opacity:1;
 
 .high_opacity h2 {
 color: #660000;
-font-size: 70px;
+font-size: 50px;
 background-color: #ffe6e6;
 z-index: 100;
 padding-left: 10px;
@@ -26,7 +33,6 @@ padding-bottom: 10px;
 background: #ff9999;
 opacity:0.9;
 padding: 30px;
-margin: 20px 50px 20px 40px;
 }
 
 .ada:hover {
@@ -38,7 +44,6 @@ background: #ff4d4d;
 background: #ff9999;
 opacity:0.9;
 padding: 30px;
-margin: 20px 50px 20px 20px;
 }
 
 .grace:hover {
@@ -50,7 +55,6 @@ background: #ff4d4d;
 background: #ff9999;
 opacity:0.9;
 padding: 30px;
-margin: 20px;
 }
 
 .katherine:hover {
@@ -87,29 +91,31 @@ background-image:url("../images/background_abstract.jpg");
 background-repeat: no-repeat;
 background-size: cover;
 opacity: 0.9;
-z-index: 1;
 background-attachment: fixed;
 }
 
 .navbar {
 position:fixed;
-z-index:100;
+
 }
 
 .body_without_nav {
 background:#ECF5DA;
 padding-top:2%;
 margin-bottom: 15px;
-}
-
-.body_without_nav:hover {
-background: #E3DAF5;
-padding: 5%;
+color: transparent;
 }
 
 .google-font {
 font-family: Amatic SC;
 font-size: 90px;
+color: black;
+}
+
+.body_without_nav:hover {
+background: #E3DAF5;
+padding: 5%;
+color: black;
 }
 
 .blockquote {
@@ -120,16 +126,7 @@ background-color: #ffe6e6;
 .container_long_bio {
 background-color: #DAF5F1;
 padding: 10px;
-opacity:1;
-z-index: 1;
 }
-
-/*This doesn't do anything yet. Trying to figure out how to change the opacity*/
-.container_for_text {
-opacity:1;
-z-index: 100;
-}
-
 
 .wrapper_for_body {
 padding-top: 5%;
