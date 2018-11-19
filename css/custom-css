@@ -1,5 +1,15 @@
 /*Homepage only*/
 
+.carousel {
+background: #ff9999;
+width: 500px;
+margin: 0 auto;
+padding: 20px;
+}
+
+.carousel:hover {
+background: #ff4d4d;
+}
 .opacity_for_whole_page {
 opacity:1;
 z-index: 100;
@@ -16,8 +26,8 @@ font-size: 90px;
 font-family: Amatic SC;
 font-weight: bold;
 background-color: #ffe6e6;
-z-index: 100;
 padding-left: 10px;
+z-index: 100;
 opacity:1;
 }
 
